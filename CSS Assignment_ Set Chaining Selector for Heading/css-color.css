@@ -1,0 +1,27 @@
+html{
+    font-size: 30px;
+}
+
+#div1{
+    height: 4rem;
+     /* 5vh; */
+    /* 200px; */
+    width: 6rem;
+    /* 50vh;  */
+    /* 300px; */
+    background-color:rgba(121, 176, 176, 0.929);
+}
+
+#div2{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(255, 111, 0);
+}
+
+p {
+    font-size: 2vh;
+}
+
+h1{
+    font-size: 3vw;
+}
