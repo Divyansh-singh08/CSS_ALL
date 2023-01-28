@@ -1,0 +1,74 @@
+p::after{
+    content:'';
+    display: inline-block;
+    height:50px;
+    width: 50px;
+    background-size: contain;
+    background-image:url("https://img.icons8.com/fluency/48/null/coconut-cocktail.png");
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+p{
+    background-color: coral;
+    display: inline;
+}
+h5{
+    background-color: rgb(136, 187, 231);
+
+    display: inline;
+}
+h2{
+    color:rgb(99, 71, 255);
+    font-family: monospace;
+}
+h5::before {
+    content: "";
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-image: url("https://img.icons8.com/fluency/48/null/coffee-pot.png");
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: lowercase;
+    /* background-color: aqua; */
+}
+body{
+    background-color:rgb(224, 209, 242);
+}
+ul {
+    list-style: none;
+}
+.cake::before{
+    content: " ";
+    display: inline-block;
+    height:50px;
+    width: 50px;
+    background-image: url("https://img.icons8.com/fluency/48/null/wedding-cake.png");
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: lowercase;
+    /* background-color:rgb(246, 142, 202); */
+}
+.pizza::before{
+    content: " ";
+    display: inline-block;
+    height:50px;
+    width: 50px;
+    background-image: url("https://img.icons8.com/fluency/48/null/pizza-five-eighths.png");
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+.biscuit::before{
+    content: " ";
+    display: inline-block;
+    height:50px;
+    width: 50px;
+    background-image: url("https://img.icons8.com/fluency/48/null/cookies.png");
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: lowercase;
+}
